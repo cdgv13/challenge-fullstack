@@ -1,0 +1,29 @@
+#Node
+node_modules/
+
+#Variables de entorno 
+.env
+
+# Builds o archivos compilados
+dist/
+
+# Logs
+*.log
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Cobertura de tests
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración temporal de Jest o ESLint
+jest-cache/
+eslint-cache/
+
+# Archivos generados temporalmente
+*.tsbuildinfo
