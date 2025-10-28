@@ -24,7 +24,7 @@ app.use(function onError(err:Error, _req:any, res:any, _next:any) {
   res.end(res.sentry + "\n");
 });
 const PORT = process.env.PORT || 3000;
-
+console.log("Actions")
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 export default app;
