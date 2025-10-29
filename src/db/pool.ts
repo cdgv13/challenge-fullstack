@@ -8,8 +8,8 @@ dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
 // Validar la conexión
 if (!process.env.DATABASE_URL) {
-  console.error("❌ DATABASE_URL no definida en .env");
-  process.exit(1);
+  console.warn("DATABASE_URL undefined.");
+
 }
 
 // Crear el pool de conexiones
